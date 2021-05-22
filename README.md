@@ -7,11 +7,11 @@ We needto update the configuration by
     # change to folder where config file should be updated
     cd /dev
     # create a tmp folder for mounting
-    mkdir fixresolution 
+    mkdir fixres
     # mount
     mount mmcblk0p1 fixresolution
     # change into folder
-    cd fixresolution 
+    cd fixres 
     # update config
     nano config.txt
     
@@ -24,3 +24,7 @@ We needto update the configuration by
     
     # also enabled settings for pi4 (not sure if it was necessary)
     kernel=kernel8l-alt.img
+
+    # unmount and reboot
+    umount fixres
+    reboot
