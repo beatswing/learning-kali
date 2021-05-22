@@ -1,8 +1,9 @@
 # Learning Kali
 
 ## Boot Kali 2021 on Raspberry Pi400
-## Fix resolution on display settings
-We needto update the configuration by
+## Fix resolution 
+We need to update the configuration as I have black borders and lcd is not used correctly.
+We do
 
     # change to folder where config file should be updated
     cd /dev
