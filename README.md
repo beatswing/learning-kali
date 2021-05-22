@@ -4,8 +4,6 @@
 ## Fix resolution 
 We need to update the configuration as I have black borders and lcd is not used correctly.
 
-We do
-
     # change to folder where config file should be updated
     cd /dev
     # create a tmp folder for mounting
