@@ -3,6 +3,7 @@
 ## Boot Kali 2021 on Raspberry Pi400
 ## Fix resolution 
 We need to update the configuration as I have black borders and lcd is not used correctly.
+
 We do
 
     # change to folder where config file should be updated
@@ -10,7 +11,7 @@ We do
     # create a tmp folder for mounting
     mkdir fixres
     # mount
-    mount mmcblk0p1 fixresolution
+    mount mmcblk0p1 fixres
     # change into folder
     cd fixres 
     # update config
